@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About</title>
+  <link rel="stylesheet" href="index.css"/>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <div id="content">
+    <section id="header">
+      <a href="#"><img src="./img/logo.png" class="logo" alt="logo"></a>
+      <div>
+        <ul id="navbar">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a class="active" href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li id="lg-bag"><a href="cart.html"><i class='bx bx-shopping-bag'></i></a></li>
+          <a href="#" id="close"><i class='bx bx-x'></i></a>
+        </ul>
+      </div>  
+      <div id="mobile">
+        <a href="cart.html"><i class='bx bx-shopping-bag'></i></a>
+        <i id="bar" class='bx bx-list-ul'></i>
+      </div>
+    </section>
+    <section id="page-header" class="aboutHeader">
+      <div class="sales">
+        <h2>#KnowUs</h2>
+        <p>Cava, a name synonymous with elegance and innovation in women's fashion</p>
+      </div>
+    </section>
+    <section id="about-head" class="section-p1">
+      <img src="./img/banner/banner21.webp" alt="">
+      <div class="content-about">
+        <h2>Who We are?</h2>
+        <p>
+          Here's a blog post about the virtual fashion brand, Cava:
+          
+          Exploring the Future of Fashion with Cava
+          In the ever-evolving landscape of fashion, Cava stands out as a beacon of innovation and creativity. As a pioneering virtual fashion brand, Cava is redefining the way we think about clothing and self-expression in the digital age. Cava is a virtual fashion brand that creates stunning digital clothing, which can be worn in virtual environments and social media. Unlike traditional fashion brands, Cava's designs exist purely in the digital realm, making it possible to push the boundaries of creativity without the limitations of physical production.
+        </p>
+        <br>
+        <a id="about-button" onclick="toggle()">DownLoad Our App</a>
+      </div>
+    </section>
+  </div>
+  <section class="about-download">
+    <div class="content">
+      <img class="qr" src="./img/pay/appload.jpeg">
+      <div class="download-tool">
+        <img class="apple" src="./img/pay/app.jpg">
+        <img class="google" src="./img/pay/play.jpg">
+      </div>
+    </div>
+    <div class="close">
+      <p><i class='bx bx-scan'></i> Scan the QR code with your phone camera</p>
+      <a href="#" onclick="toggle()">Close</a>
+    </div>
+  </section>
+  <footer class="section-p1">
+    <div class="col">
+      <h4>Contact</h4>
+      <p><strong>Address:</strong> 562 Wellington Road, Street 32, San Francisco</p>
+      <p><strong>Phone:</strong> +01 2222 365 / (+91) 01 2345 6789</p>
+      <p><strong>Hours:</strong> 10:00 - 18:00, Mon - Sat</p>
+      <div class="follow">
+        <h4>Follow us</h4>
+        <div class="icon">
+          <i class='bx bxl-facebook'></i>
+          <i class='bx bxl-instagram-alt'></i>
+          <i class='bx bxl-pinterest'></i>
+          <i class='bx bxl-youtube'></i>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <h4>About</h4>
+      <a href="">About us</a>
+      <a href="">Delivery Information</a>
+      <a href="">Privacy Policy</a>
+      <a href="">Terms & Conditions</a>
+      <a href="">Contact us</a>
+    </div>
+    <div class="col">
+      <h4>My Account</h4>
+      <a href="">Sign In</a>
+      <a href="">View Cart</a>
+      <a href="">Track My Order</a>
+      <a href="">My Wishlist</a>
+      <a href="">Help</a>
+    </div>
+    <div class="col install">
+      <h4>Install App</h4>
+      <p>From App Store or Google Play</p>
+      <div class="row">
+        <img src="img/pay/app.jpg" alt="">
+        <img src="img/pay/play.jpg" alt="">
+      </div>
+      <p>Secured Payment Gateways</p>
+      <img src="img/pay/pay.png" alt="">
+    </div>
+    <div class="copyright">
+      <p>© 2024, Sue - HTML CSS E-commerce Example</p>
+    </div>
+  </footer>
+  <script>
+    function toggle(){
+      document.getElementById('content').classList.toggle('active');
+      document.querySelector('.about-download').classList.toggle('visible');
+    }
+  </script>
+</body>
+</html>
